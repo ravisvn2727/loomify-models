@@ -1,6 +1,6 @@
 {
- "manifestVersion": 2,
- "createdAt": "2026-11-05T13:07:49Z",
+ "manifestVersion": 3,
+ "createdAt": "2026-11-06T14:26:57Z",
  "models": [
   {
    "name": "tesseract-guj-hin-eng",
@@ -197,19 +197,19 @@
   },
   {
    "name": "sd15-loomify",
-   "version": "1.0.0-lora",
+   "version": "2.0.0-lora",
    "licence": "Proprietary (Loomify) + CreativeML OpenRAIL-M",
    "phase": "Later",
    "auto": true,
-   "releaseNotes": "Loomify design model v1.0.0: Stable Diffusion 1.5 with the owner's jacquard design LoRA merged in (q5_0 GGUF), with the TAESD decoder (MIT). Generates flat jacquard saree design graphs. 12 GB arm64 phones only. Proprietary, use only inside the Loomify app; CreativeML OpenRAIL-M use restrictions apply.",
+   "releaseNotes": "Loomify design model v2.0.0: Stable Diffusion 1.5 with the owner's jacquard design LoRA merged in (q5_0 GGUF), with the TAESD decoder (MIT). Generates flat jacquard saree design graphs; v2 is trained on the app's own prompts at 512 x 768 and 512 x 512 and follows the named ground, border and jari colours much better. Runs on arm64 phones and tablets with 8 GB RAM or more. Proprietary, use only inside the Loomify app; CreativeML OpenRAIL-M use restrictions apply.",
    "sizeBytes": 1678968780,
    "files": [
     {
      "path": "sd15-loomify-q5_0.gguf",
-     "url": "https://github.com/ravisvn2727/loomify-models/releases/download/sd15-loomify-v1.0.0/sd15-loomify-q5_0.gguf",
+     "url": "https://github.com/ravisvn2727/loomify-models/releases/download/sd15-loomify-v2.0.0/sd15-loomify-q5_0.gguf",
      "sizeBytes": 1669175488,
-     "sha256": "b3e68c199e48ad43675747890fddf85caad3031d027b14e671220a897c716012",
-     "source": "github:ravisvn2727/loomify-models@sd15-loomify-v1.0.0"
+     "sha256": "29ab4f4527862269bcb80179debd2e87d90ff74ddde9cacb8ed9fcdefec0d8e5",
+     "source": "github:ravisvn2727/loomify-models@sd15-loomify-v2.0.0"
     },
     {
      "path": "taesd.safetensors",
